@@ -1,0 +1,53 @@
+
+form{
+    margin: 10px auto;
+}
+label{
+    margin-right: 10px;
+}
+input{
+    border-radius: 20px;
+    padding:3px;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+}
+input[type="submit"], input[type="reset"]
+{
+    width:100px;
+    height: 30px;
+    font-weight: bold;
+}
+input[type="checkbox"], input[type="radio"]
+{
+    width:18px;
+    height:18px;
+    margin-left:3px;
+}
+option{
+    font-size: 1.2em;
+}
+form div{
+    text-align: center;
+    padding:10px;
+    background-color: #a3a3a3;
+    border-radius: 30px;
+    width:50%;
+    margin: 5px auto;
+}
+.good{
+    border: 2px solid rgba(50,205,50,0.5);
+}
+.bad{
+    border: 2px solid rgba(255,0,0,0.5);
+}
+.GoodParent{
+    background-color: rgba(50,205,50,0.5);
+}
+.BadParent{
+    background-color:rgba(255,0,0,0.5);
+}
+#progressbar{
+    margin-right: auto;
+    margin-left: auto;
+}
+

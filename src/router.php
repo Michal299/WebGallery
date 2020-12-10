@@ -1,0 +1,20 @@
+<?php
+
+$router=[
+    '/'=>'home',
+    '/home'=>'home',
+    '/login'=>'login',
+    '/logout'=>'logout',
+    '/register'=>'register',
+    '/add_photo'=>'add_photo',
+    '/gallery'=>'gallery',
+    '/picture'=>'picture',
+    '/photos_clipboard'=>'photos_clipboard',
+    '/photos_clipboard_delete'=>'photos_clipboard_delete',
+    '/search'=>'search',
+    '/mojahistoria'=>'my_history',
+    '/rubikahistoria'=>'rubiks_history',
+    '/szescienne'=>'szescienne',
+    '/dwunastoscienne'=>'dwunastoscienne',
+    '/czworoscienne'=>'czworoscienne'
+];
